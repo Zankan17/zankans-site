@@ -1,0 +1,105 @@
+/* ---------- Color Module Styles ----------- */
+
+body {
+  color: #3b3b3b;
+  background: #292929;
+}
+
+#page,
+#main-wrapper,
+.region-primary-menu .menu-item a.is-active,
+.region-primary-menu .menu-item--active-trail a {
+  background: rgb(255, 0, 0);
+}
+
+.tabs ul.primary li a.is-active {
+  background-color: rgb(255, 0, 0);
+}
+
+.tabs ul.primary li.is-active a {
+  background-color: rgb(255, 0, 0);
+  border-bottom-color: rgb(255, 0, 0);
+}
+
+#navbar-top {
+  background-color: rgb(75, 74, 74)
+}
+
+#navbar-main {
+  background-color: rgb(255, 0, 0)
+}
+
+a,
+.link {
+  color: rgb(255, 0, 0);
+}
+
+a:hover,
+a:focus,
+.link:hover,
+.link:focus {
+  color: rgb(255, 0, 0);
+}
+
+a:active,
+.link:active {
+  color: rgb(255, 0, 0);
+}
+
+.page-item.active .page-link {
+  background-color: rgb(255, 0, 0);
+  border-color: rgb(255, 0, 0);
+}
+
+.page-link,
+.page-link:hover {
+  color: rgb(255, 0, 0);
+}
+
+.sidebar .block {
+  background-color: rgb(255, 0, 0);
+  border-color: rgb(255, 0, 0);
+}
+
+.btn-primary {
+  background-color: rgb(255, 0, 0);
+  border-color: rgb(255, 0, 0);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: rgb(255, 0, 0);
+}
+
+.site-footer {
+  background: rgb(255, 0, 0);
+}
+
+.region-header,
+.region-header a,
+.region-header li a.is-active,
+.region-header .site-branding__text,
+.region-header .site-branding,
+.region-header .site-branding__text a,
+.region-header .site-branding a,
+.region-secondary-menu .menu-item a,
+.region-secondary-menu .menu-item a.is-active {
+  color: rgb(255, 0, 0);
+}
+
+
+/* ---------- Color Form ----------- */
+
+[dir="rtl"] .color-form .color-palette {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+[dir="rtl"] .color-form .form-item label {
+  float: right;
+}
+
+[dir="rtl"] .color-form .color-palette .lock {
+  right: -20px;
+  left: 0;
+}
